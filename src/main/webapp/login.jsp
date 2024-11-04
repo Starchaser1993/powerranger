@@ -16,6 +16,10 @@
     </style>
 </head>
 <body>
+<!-- Botón para ir a la página de inicio -->
+<div class="container mt-3">
+    <a href="home.jsp" class="btn btn-secondary">Ir a la Página de Inicio</a>
+</div>
 <div class="container login-container">
     <div class="row justify-content-center">
         <div class="col-md-6">

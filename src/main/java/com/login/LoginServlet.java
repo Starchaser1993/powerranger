@@ -1,11 +1,15 @@
 package com.login;
 
+import db.DatabaseConnection;
 import javax.servlet.ServletException;
 import javax.servlet.http.HttpServlet;
 import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
+import javax.servlet.http.HttpSession;
 import java.io.IOException;
-import java.io.PrintWriter;
+import java.sql.Connection;
+import java.sql.PreparedStatement;
+import java.sql.ResultSet;
 
 public class LoginServlet extends HttpServlet {
 
@@ -14,22 +18,56 @@ public class LoginServlet extends HttpServlet {
         String email = request.getParameter("email");
         String password = request.getParameter("password");
 
-        // Lógica de validación de usuario
+        // Validación de usuario
         if (isValidUser(email, password)) {
-            // Si las credenciales son válidas, redirigir a la página de inicio
-            response.sendRedirect("home.jsp");
+            // Obtener la conexión a la base de datos
+            try (Connection conn = DatabaseConnection.getConnection()) {
+                // Consulta para obtener el rol del usuario
+                String rolQuery = "SELECT ROL.descripcion FROM USUARIO " +
+                        "JOIN ROL ON USUARIO.codRol = ROL.codRol " +
+                        "WHERE correoUsuario = ?";
+                PreparedStatement rolStmt = conn.prepareStatement(rolQuery);
+                rolStmt.setString(1, email);
+                ResultSet rolRs = rolStmt.executeQuery();
+
+                if (rolRs.next()) {
+                    String userRole = rolRs.getString("descripcion");
+
+                    // Guardar rol en la sesión
+                    HttpSession session = request.getSession();
+                    session.setAttribute("correoUsuario", email);
+                    session.setAttribute("userRole", userRole); // Guardar el rol en la sesión
+                    response.sendRedirect("home.jsp"); // Redirigir a la página de inicio
+                } else {
+                    // Si no se encuentra el rol, mostrar error
+                    request.setAttribute("errorMessage", "Rol no asignado al usuario.");
+                    request.getRequestDispatcher("login.jsp").forward(request, response);
+                }
+            } catch (Exception e) {
+                e.printStackTrace();
+            }
         } else {
-            // Si las credenciales son inválidas, redirigir de vuelta a login.jsp con un mensaje de error
+            // Redirigir de vuelta a login.jsp con un mensaje de error
             request.setAttribute("errorMessage", "Credenciales inválidas");
             request.getRequestDispatcher("login.jsp").forward(request, response);
         }
     }
 
     private boolean isValidUser(String email, String password) {
-        // Lógica de autenticación. Aquí puedes conectar con una base de datos para validar el usuario.
-        // Este es un ejemplo simple; deberías reemplazarlo con tu lógica real.
+        boolean isValid = false;
+        try (Connection conn = DatabaseConnection.getConnection()) {
+            String query = "SELECT * FROM USUARIO WHERE correoUsuario = ? AND password = ?";
+            PreparedStatement stmt = conn.prepareStatement(query);
+            stmt.setString(1, email);
+            stmt.setString(2, password);
 
-        // Ejemplo de credenciales válidas (esto solo es para propósitos de demostración)
-        return "test@example.com".equals(email) && "password123".equals(password);
+            ResultSet rs = stmt.executeQuery();
+            isValid = rs.next(); // Si hay resultados, el usuario es válido
+
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+        return isValid;
     }
 }
+
