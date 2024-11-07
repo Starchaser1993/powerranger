@@ -41,7 +41,7 @@
                     </form>
                 </div>
                 <div class="card-footer text-center">
-                    <small>No tienes una cuenta? <a href="#">Registrarse</a></small>
+                    <small>¿No tienes una cuenta? <a href="registro.jsp">Registrarse</a></small>
                 </div>
             </div>
         </div>

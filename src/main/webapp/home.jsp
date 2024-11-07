@@ -1,3 +1,4 @@
+<%@ page import="usuario.Usuario" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html lang="es">
 <head>
@@ -16,10 +17,17 @@
   </style>
 </head>
 <body>
+<%
+
+  Usuario usuario = (Usuario) session.getAttribute("usuario");
+%>
+
+
+
 
 <!-- Menú de navegación -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
-  <a class="navbar-brand" href="#">Nombre del usuario</a>
+  <a class="navbar-brand" href="#"><%= usuario.getRol().getDescripcion() %></a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -28,9 +36,11 @@
       <li class="nav-item">
         <a class="nav-link" href="home.jsp">Inicio</a>
       </li>
+      <% if("admin".equalsIgnoreCase(usuario.getRol().getDescripcion())){%>
       <li class="nav-item">
         <a class="nav-link" href="perfil.jsp">Perfil del Usuario</a>
       </li>
+      <%}%> 
     </ul>
     <form class="form-inline search-box">
       <input class="form-control mr-sm-2" type="search" placeholder="Buscar temporadas" aria-label="Buscar">
