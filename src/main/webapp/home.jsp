@@ -18,12 +18,35 @@
 </head>
 <body>
 <%
-
   Usuario usuario = (Usuario) session.getAttribute("usuario");
+
+  // Redireccionar en función del valor ingresado
+  String searchQuery = request.getParameter("search");
+  if (searchQuery != null) {
+    searchQuery = searchQuery.toLowerCase();
+    switch (searchQuery) {
+      case "episodios":
+        response.sendRedirect("menu/episodios.jsp");
+        break;
+      case "rangers":
+        response.sendRedirect("menu/rangers.jsp");
+        break;
+      case "temporadas":
+        response.sendRedirect("/TemporadasServlet");
+        break;
+      case "villanos":
+        response.sendRedirect("menu/villanos.jsp");
+        break;
+      case "zords":
+        response.sendRedirect("menu/zords.jsp");
+        break;
+      default:
+        // Si no coincide con ninguna opción, muestra un mensaje de alerta
+        System.out.println("<script>alert('No se encontraron resultados para \"" + searchQuery + "\"');</script>");
+        break;
+    }
+  }
 %>
-
-
-
 
 <!-- Menú de navegación -->
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
@@ -40,25 +63,56 @@
       <li class="nav-item">
         <a class="nav-link" href="perfil.jsp">Perfil del Usuario</a>
       </li>
-      <%}%> 
+      <%}%>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="menuDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Menú
+        </a>
+        <div class="dropdown-menu" aria-labelledby="menuDropdown">
+          <a class="dropdown-item" href="menu/rangers.jsp">Rangers</a>
+          <a class="dropdown-item" href="menu/zords.jsp">Zords</a>
+          <a class="dropdown-item" href="TemporadasServlet">Temporadas</a>
+          <a class="dropdown-item" href="menu/episodios.jsp">Episodios</a>
+          <a class="dropdown-item" href="menu/villanos.jsp">Villanos</a>
+        </div>
+      </li>
     </ul>
-    <form class="form-inline search-box">
-      <input class="form-control mr-sm-2" type="search" placeholder="Buscar temporadas" aria-label="Buscar">
+    <!-- Formulario de búsqueda -->
+    <form class="form-inline search-box" method="GET" action="home.jsp">
+      <input class="form-control mr-sm-2" type="search" name="search" placeholder="Buscar temporadas" aria-label="Buscar">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+      <a href="LogoutServlet" class="btn btn-danger">Cerrar Sesión</a>
     </form>
   </div>
 </nav>
 
+<!-- Cuadro informativo de opciones de búsqueda -->
+<div class="container">
+  <div class="info-box text-right float-right">
+    <p>
+      <strong>
+        <a href="#searchOptions" data-toggle="collapse" aria-expanded="false" aria-controls="searchOptions" style="text-decoration: none;">
+          Opciones de búsqueda
+        </a>
+      </strong>
+    </p>
+    <div id="searchOptions" class="collapse">
+      <p>Escribe una de las siguientes palabras para navegar rápidamente:</p>
+      <ul class="list-unstyled">
+        <li><strong>episodios</strong> - Redirige a la página de episodios</li>
+        <li><strong>rangers</strong> - Redirige a la página de rangers</li>
+        <li><strong>temporadas</strong> - Redirige a la página de temporadas</li>
+        <li><strong>villanos</strong> - Redirige a la página de villanos</li>
+        <li><strong>zords</strong> - Redirige a la página de zords</li>
+      </ul>
+    </div>
+  </div>
+</div>
+
 <div class="container text-center mt-4">
-
   <img src="images/Mighty_Morphin_Logo.webp" alt="Mighty Morphin Logo" class="img-fluid mb-3" style="width:300px; height:auto;">
-
-
   <h1>Esta es la sección principal donde puedes explorar las temporadas.</h1>
-  <p>La primera temporada de Power Rangers se llamó Mighty Morphin Power Rangers
-    y se emitió por primera vez el 28 de agosto de 1993. La temporada finalizó el
-    27 de noviembre de 1995.</p>
-
+  <p>La primera temporada de Power Rangers se llamó Mighty Morphin Power Rangers y se emitió por primera vez el 28 de agosto de 1993. La temporada finalizó el 27 de noviembre de 1995.</p>
   <!-- Video centrado -->
   <div class="embed-responsive embed-responsive-16by9 mt-3">
     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nHalaFUqnTI" title="Mighty Morphin Season 1 - Official Opening Theme and Theme Song | Power Rangers Official" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
@@ -69,7 +123,36 @@
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
+<footer class="bg-light text-center text-lg-start mt-5">
+  <div class="container p-4">
+    <div class="row">
+      <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Sobre la aplicación</h5>
+        <p>
+          Esta es una aplicación de exploración de Power Rangers, donde puedes encontrar información sobre episodios, temporadas, rangers, villanos y zords.
+        </p>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Enlaces útiles</h5>
+        <ul class="list-unstyled mb-0">
+          <li><a href="home.jsp" class="text-dark">Inicio</a></li>
+          <li><a href="menu/rangers.jsp" class="text-dark">Rangers</a></li>
+          <li><a href="menu/zords.jsp" class="text-dark">Zords</a></li>
+          <li><a href="menu/villanos.jsp" class="text-dark">Villanos</a></li>
+        </ul>
+      </div>
+      <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+        <h5 class="text-uppercase">Contacto</h5>
+        <p>Email: contacto@powerrangers.com</p>
+        <p>Teléfono: +56 9 1234 5678</p>
+      </div>
+    </div>
+  </div>
+  <div class="text-center p-3" style="background-color: #e9ecef;">
+    © 2024 Power Rangers Fan App. Todos los derechos reservados.
+  </div>
+</footer>
+
 </html>
-
-
 
