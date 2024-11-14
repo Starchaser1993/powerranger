@@ -18,33 +18,15 @@
 </head>
 <body>
 <%
-  Usuario usuario = (Usuario) session.getAttribute("usuario");
+  response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate"); // HTTP 1.1
+  response.setHeader("Pragma", "no-cache"); // HTTP 1.0
+  response.setDateHeader("Expires", 0); // Desactiva caché en proxies
 
-  // Redireccionar en función del valor ingresado
-  String searchQuery = request.getParameter("search");
-  if (searchQuery != null) {
-    searchQuery = searchQuery.toLowerCase();
-    switch (searchQuery) {
-      case "episodios":
-        response.sendRedirect("menu/episodios.jsp");
-        break;
-      case "rangers":
-        response.sendRedirect("menu/rangers.jsp");
-        break;
-      case "temporadas":
-        response.sendRedirect("/TemporadasServlet");
-        break;
-      case "villanos":
-        response.sendRedirect("menu/villanos.jsp");
-        break;
-      case "zords":
-        response.sendRedirect("menu/zords.jsp");
-        break;
-      default:
-        // Si no coincide con ninguna opción, muestra un mensaje de alerta
-        System.out.println("<script>alert('No se encontraron resultados para \"" + searchQuery + "\"');</script>");
-        break;
-    }
+  // Verificar si el usuario está logueado
+  Usuario usuario = (Usuario) session.getAttribute("usuario");
+  if (usuario == null) {
+    response.sendRedirect("login.jsp"); // Redirige al login si no hay sesión
+    return;
   }
 %>
 
@@ -155,4 +137,5 @@
 </footer>
 
 </html>
+
 

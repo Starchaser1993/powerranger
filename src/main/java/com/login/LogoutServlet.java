@@ -19,7 +19,12 @@ public class LogoutServlet extends HttpServlet {
             session.invalidate(); // Invalida la sesión existente
         }
 
-        // Redirige al usuario a la página de login o de inicio
+        // Desactiva la caché del navegador para evitar que el usuario vea páginas anteriores
+        response.setHeader("Cache-Control", "no-cache, no-store, must-revalidate"); // HTTP 1.1
+        response.setHeader("Pragma", "no-cache"); // HTTP 1.0
+        response.setDateHeader("Expires", 0); // Proxies
+
+        // Redirige al usuario a la página de inicio de sesión u otra página deseada
         response.sendRedirect("login.jsp");
     }
 }
