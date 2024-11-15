@@ -1,11 +1,11 @@
-<%@ page import="temporada.Temporada" %>
+<%@ page import="personaje.Villano" %>
 <%@ page import="java.util.List" %>
 <%@ page contentType="text/html;charset=UTF-8" language="java" %>
 <html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Temporadas</title>
+    <title>Villanos</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <style>
         /* Configuración para el color de fondo */
@@ -38,50 +38,48 @@
     <button onclick="window.history.back();" class="btn btn-secondary">Volver</button>
 </div>
 <div class="container mt-4">
-    <h1>Lista de Temporadas</h1>
+    <h1>Lista de Villanos</h1>
 
     <!-- Tabla con los datos de las temporadas -->
     <table class="table table-bordered">
         <thead>
         <tr>
-            <th>Código Temporada</th>
-            <th>Código Episodio</th>
-            <th>Código Villano</th>
-            <th>Código Equipo</th>
-            <th>Título</th>
-            <th>Nro Temporada</th>
-            <th>Fecha Estreno</th>
-            <th>Nro Episodios</th>
-            <th>Temática</th>
-            <th>Correo Usuario</th>
-            <th>Número de visitas</th>
+            <th>Número del villano</th>
+            <th>Número de temporada</th>
+            <th>Código del equipo</th>
+            <th>Nombre del villano</th>
+            <th>Tipo Villano</th>
+            <th>Episodio de debut</th>
+            <th>Arma del villano</th>
+            <th>Categoría del Villano</th>
+            <th>Correo usuario</th>
+
         </tr>
         </thead>
         <tbody>
         <%
-            List<Temporada> temporadas = (List<Temporada>) request.getAttribute("temporadas");
-            if (temporadas != null && !temporadas.isEmpty()) {
-                for (Temporada temporada : temporadas) {
+            List<Villano> villanos = (List<Villano>) request.getAttribute("villanos");
+            if (villanos != null && !villanos.isEmpty()) {
+                for (Villano villano : villanos) {
         %>
         <tr>
-            <td><%= temporada.getCodTemp() %></td>
-            <td><%= temporada.getCodEpisodio() %></td>
-            <td><%= temporada.getCodVillano() %></td>
-            <td><%= temporada.getCodEquipo() %></td>
-            <td><%= temporada.getTituloTemp() %></td>
-            <td><%= temporada.getNroTemp() %></td>
-            <td><%= temporada.getFechaEstreno() %></td>
-            <td><%= temporada.getNroEpisodios() %></td>
-            <td><%= temporada.getTematicaTemp() %></td>
-            <td><%= temporada.getCorreoUsuario() %></td>
-            <td><%= temporada.getNumeroVisita() %></td>
+            <td><%= villano.getCodVillano() %></td>
+            <td><%= villano.getCodTemp() %></td>
+            <td><%= villano.getCodEquipo() %></td>
+            <td><%= villano.getNombreVil() %></td>
+            <td><%= villano.getTipoVil() %></td>
+            <td><%= villano.getEpiDebut() %></td>
+            <td><%= villano.getArmaVil() %></td>
+            <td><%= villano.getCategoriaVil() %></td>
+            <td><%= villano.getCorreoUsuario() %></td>
+
         </tr>
         <%
             }
         } else {
         %>
         <tr>
-            <td colspan="11">No hay temporadas disponibles</td>
+            <td colspan="11">No hay villanos disponibles</td>
         </tr>
         <%
             }

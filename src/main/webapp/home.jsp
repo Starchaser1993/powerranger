@@ -51,17 +51,17 @@
           Menú
         </a>
         <div class="dropdown-menu" aria-labelledby="menuDropdown">
-          <a class="dropdown-item" href="menu/rangers.jsp">Rangers</a>
-          <a class="dropdown-item" href="menu/zords.jsp">Zords</a>
+          <a class="dropdown-item" href="RangersServlet">Rangers</a>
+          <a class="dropdown-item" href="ZordsServlet">Zords</a>
           <a class="dropdown-item" href="TemporadasServlet">Temporadas</a>
-          <a class="dropdown-item" href="menu/episodios.jsp">Episodios</a>
-          <a class="dropdown-item" href="menu/villanos.jsp">Villanos</a>
+          <a class="dropdown-item" href="EpisodiosServlet">Episodios</a>
+          <a class="dropdown-item" href="VillanosServlet">Villanos</a>
         </div>
       </li>
     </ul>
     <!-- Formulario de búsqueda -->
     <form class="form-inline search-box" method="GET" action="home.jsp">
-      <input class="form-control mr-sm-2" type="search" name="search" placeholder="Buscar temporadas" aria-label="Buscar">
+      <input class="form-control mr-sm-2" type="search" name="search" placeholder="episodios" aria-label="Buscar">
       <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
       <a href="LogoutServlet" class="btn btn-danger">Cerrar Sesión</a>
     </form>
@@ -119,9 +119,9 @@
         <h5 class="text-uppercase">Enlaces útiles</h5>
         <ul class="list-unstyled mb-0">
           <li><a href="home.jsp" class="text-dark">Inicio</a></li>
-          <li><a href="menu/rangers.jsp" class="text-dark">Rangers</a></li>
-          <li><a href="menu/zords.jsp" class="text-dark">Zords</a></li>
-          <li><a href="menu/villanos.jsp" class="text-dark">Villanos</a></li>
+          <li><a href="RangersServlet" class="text-dark">Rangers</a></li>
+          <li><a href="ZordsServlet" class="text-dark">Zords</a></li>
+          <li><a href="VillanosServlet" class="text-dark">Villanos</a></li>
         </ul>
       </div>
       <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
