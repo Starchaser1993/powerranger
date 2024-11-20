@@ -18,6 +18,49 @@
             margin-bottom: 20px;
         }
     </style>
+    <nav class="navbar navbar-expand-lg navbar-light bg-primary">
+        <a class="navbar-brand" href="#">Galería de todas las temporadas</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+                <li class="nav-item">
+                    <a class="nav-link text-light" href="home.jsp">Inicio</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link text-light dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        Temporadas
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                        <a class="dropdown-item" href="#" onclick="showSlider('slider-temporada-1');">Temporada 1</a>
+                        <a class="dropdown-item" href="#" onclick="showSlider('slider-temporada-2');">Temporada 2</a>
+                        <a class="dropdown-item" href="#" onclick="showSlider('slider-temporada-3');">Temporada 3</a>
+                        <a class="dropdown-item" href="#" onclick="showSlider('slider-temporada-4');">Temporada 4</a>
+                        <a class="dropdown-item" href="#" onclick="showSlider('slider-temporada-5');">Temporada 5</a>
+                        <a class="dropdown-item" href="#" onclick="showSlider('slider-temporada-6');">Temporada 6</a>
+                        <a class="dropdown-item" href="#" onclick="showSlider('slider-temporada-7');">Temporada 7</a>
+                        <a class="dropdown-item" href="#" onclick="showSlider('slider-temporada-8');">Temporada 8</a>
+                        <a class="dropdown-item" href="#" onclick="showSlider('slider-temporada-9');">Temporada 9</a>
+                        <a class="dropdown-item" href="#" onclick="showSlider('slider-temporada-10');">Temporada 10</a>
+                        <a class="dropdown-item" href="#" onclick="showSlider('slider-temporada-11');">Temporada 11</a>
+                        <a class="dropdown-item" href="#" onclick="showSlider('slider-temporada-12');">Temporada 12</a>
+                        <a class="dropdown-item" href="#" onclick="showSlider('slider-temporada-13');">Temporada 13</a>
+                        <a class="dropdown-item" href="#" onclick="showSlider('slider-temporada-14');">Temporada 14</a>
+                        <a class="dropdown-item" href="#" onclick="showSlider('slider-temporada-15');">Temporada 15</a>
+                        <a class="dropdown-item" href="#" onclick="showSlider('slider-temporada-16');">Temporada 16</a>
+                        <a class="dropdown-item" href="#" onclick="showSlider('slider-temporada-17');">Temporada 17</a>
+                        <a class="dropdown-item" href="#" onclick="showSlider('slider-temporada-18');">Temporada 18</a>
+                        <a class="dropdown-item" href="#" onclick="showSlider('slider-temporada-19');">Temporada 19</a>
+                        <a class="dropdown-item" href="#" onclick="showSlider('slider-temporada-20');">Temporada 20</a>
+                        <a class="dropdown-item" href="#" onclick="showSlider('slider-temporada-21');">Temporada 21</a>
+                        <a class="dropdown-item" href="#" onclick="showSlider('slider-temporada-22');">Temporada 22</a>
+                        <a class="dropdown-item" href="#" onclick="showSlider('slider-temporada-23');">Temporada 23</a>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </nav>
 </head>
 <body>
 
@@ -111,10 +154,695 @@
     </div>
 </div>
 
+<div id="slider-temporada-1" class="slider-container d-none">
+    <div class="d-flex justify-content-center">
+        <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
+            <!-- Contenido del slider de la Temporada 1 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="imagesslider/slider1temp/Elenco T1.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider1temp/Megazord T1.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider1temp/Poster T1.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators1" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="slider-temporada-2" class="slider-container d-none">
+    <div class="d-flex justify-content-center">
+        <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
+            <!-- Contenido del slider de la Temporada 1 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="imagesslider/slider2temp/Elenco%20AR.webp" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider2temp/Poster%20AR.webp" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider2temp/Zords%20AR.png" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators2" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="slider-temporada-3" class="slider-container d-none">
+    <div class="d-flex justify-content-center">
+        <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
+            <!-- Contenido del slider de la Temporada 1 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="imagesslider/slider3temp/Elenco%20Zeo.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider3temp/Megazrod%20Zeo.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider3temp/Poster%20Zeo.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators3" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="slider-temporada-4" class="slider-container d-none">
+    <div class="d-flex justify-content-center">
+        <div id="carouselExampleIndicators4" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
+            <!-- Contenido del slider de la Temporada 1 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="imagesslider/slider4temp/Elenco%20Turbo.webp" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider4temp/Megazord%20Turbo.webp" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider4temp/Poster%20Turbo.webp" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators4" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators4" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="slider-temporada-5" class="slider-container d-none">
+    <div class="d-flex justify-content-center">
+        <div id="carouselExampleIndicators5" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
+            <!-- Contenido del slider de la Temporada 1 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="imagesslider/slider5temp/Elenco%20Space.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider5temp/Megazord%20Space.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider5temp/Poster%20Space.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators5" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators5" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="slider-temporada-6" class="slider-container d-none">
+    <div class="d-flex justify-content-center">
+        <div id="carouselExampleIndicators6" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
+            <!-- Contenido del slider de la Temporada 1 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="imagesslider/slider6temp/Elenco%20LG.webp" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider6temp/Megazord%20LG.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider6temp/Poster%20LG.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators6" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators6" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="slider-temporada-7" class="slider-container d-none">
+    <div class="d-flex justify-content-center">
+        <div id="carouselExampleIndicators7" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
+            <!-- Contenido del slider de la Temporada 1 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="imagesslider/slider7temp/Elenco%20LR.webp" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider7temp/Megazord%20LR.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider7temp/Poster%20LR.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators7" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators7" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="slider-temporada-8" class="slider-container d-none">
+    <div class="d-flex justify-content-center">
+        <div id="carouselExampleIndicators8" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
+            <!-- Contenido del slider de la Temporada 1 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="imagesslider/slider8temp/Elenco%20TF.webp" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider8temp/Megazord%20TF.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider8temp/Poster%20TF.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators8" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators8" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="slider-temporada-9" class="slider-container d-none">
+    <div class="d-flex justify-content-center">
+        <div id="carouselExampleIndicators9" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
+            <!-- Contenido del slider de la Temporada 1 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="imagesslider/slider9temp/Megazord%20WF.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider9temp/Megazord%20WF.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider9temp/Poster%20WF.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators9" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators9" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="slider-temporada-10" class="slider-container d-none">
+    <div class="d-flex justify-content-center">
+        <div id="carouselExampleIndicators10" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
+            <!-- Contenido del slider de la Temporada 1 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="imagesslider/slider10temp/Elenco%20NS.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider10temp/Megazord%20NS.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider10temp/Poster%20NS.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators10" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators10" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="slider-temporada-11" class="slider-container d-none">
+    <div class="d-flex justify-content-center">
+        <div id="carouselExampleIndicators11" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
+            <!-- Contenido del slider de la Temporada 1 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="imagesslider/slider11temp/Elenco%20DT.webp" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider11temp/Megazord%20DT.webp" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider11temp/Poster%20DT.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators11" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators11" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="slider-temporada-13" class="slider-container d-none">
+    <div class="d-flex justify-content-center">
+        <div id="carouselExampleIndicators13" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
+            <!-- Contenido del slider de la Temporada 1 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="imagesslider/slider13temp/Elenco%20MF.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider13temp/Megazord%20MF.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider13temp/Poster%20MF.webp" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators13" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators13" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="slider-temporada-14" class="slider-container d-none">
+    <div class="d-flex justify-content-center">
+        <div id="carouselExampleIndicators14" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
+            <!-- Contenido del slider de la Temporada 1 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="imagesslider/slider14temp/Elenco%20OO.webp" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider14temp/Megazord%20OO.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider14temp/Poster%20OO.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators14" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators14" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="slider-temporada-15" class="slider-container d-none">
+    <div class="d-flex justify-content-center">
+        <div id="carouselExampleIndicators15" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
+            <!-- Contenido del slider de la Temporada 1 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="imagesslider/slider15temp/Elenco%20JF.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider15temp/Megazord%20JF.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider15temp/Poster%20JF.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators15" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators15" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="slider-temporada-16" class="slider-container d-none">
+    <div class="d-flex justify-content-center">
+        <div id="carouselExampleIndicators16" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
+            <!-- Contenido del slider de la Temporada 1 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="imagesslider/slider16temp/Elenco%20RPM.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider16temp/Megazord%20RPM.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider16temp/Poster%20RPM.webp" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators16" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators16" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="slider-temporada-17" class="slider-container d-none">
+    <div class="d-flex justify-content-center">
+        <div id="carouselExampleIndicators17" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
+            <!-- Contenido del slider de la Temporada 1 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="imagesslider/slider17temp/Megazord%20Sa.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider17temp/Megazord%20Sa.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider17temp/Poster%20Sa.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators17" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators17" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="slider-temporada-18" class="slider-container d-none">
+    <div class="d-flex justify-content-center">
+        <div id="carouselExampleIndicators18" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
+            <!-- Contenido del slider de la Temporada 1 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="imagesslider/slider18temp/Elenco%20Me.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider18temp/Megazord%20Me.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider18temp/Poster%20Me.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators18" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators18" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="slider-temporada-19" class="slider-container d-none">
+    <div class="d-flex justify-content-center">
+        <div id="carouselExampleIndicators19" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
+            <!-- Contenido del slider de la Temporada 1 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="imagesslider/slider19temp/Elenco%20DC.webp" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider19temp/Megazord%20DC.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider19temp/Poster%20DC.webp" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators19" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators19" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="slider-temporada-20" class="slider-container d-none">
+    <div class="d-flex justify-content-center">
+        <div id="carouselExampleIndicators20" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
+            <!-- Contenido del slider de la Temporada 1 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="imagesslider/slider20temp/Elenco%20Ni.webp" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider20temp/Megazord%20Ni.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider20temp/Poster%20Ni.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators20" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators20" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="slider-temporada-21" class="slider-container d-none">
+    <div class="d-flex justify-content-center">
+        <div id="carouselExampleIndicators21" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
+            <!-- Contenido del slider de la Temporada 1 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="imagesslider/slider21temp/Elenco%20BM.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider21temp/Megazord%20BM.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider21temp/Poster%20BM.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators21" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators21" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="slider-temporada-22" class="slider-container d-none">
+    <div class="d-flex justify-content-center">
+        <div id="carouselExampleIndicators22" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
+            <!-- Contenido del slider de la Temporada 1 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="imagesslider/slider22temp/Elenco%20DF.jpg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider22temp/Megazord%20DF.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider22temp/Poster%20DF.webp" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators22" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators22" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<div id="slider-temporada-23" class="slider-container d-none">
+    <div class="d-flex justify-content-center">
+        <div id="carouselExampleIndicators23" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
+            <!-- Contenido del slider de la Temporada 1 -->
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="imagesslider/slider23temp/Elenco%20CF.webp" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider23temp/Megazord%20CF.jpg" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider23temp/Poster%20CF.webp" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators23" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators23" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
+<style>
+    .carousel-control-prev-icon,
+    .carousel-control-next-icon {
+        background-color: black;
+        border-radius: 50%;
+        width: 40px;
+        height: 40px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        color: white;
+        font-size: 1.2rem;
+    }
+
+    .carousel-control-prev-icon::before {
+        content: '‹'; /* Símbolo de flecha izquierda */
+        font-family: Arial, sans-serif;
+    }
+
+    .carousel-control-next-icon::before {
+        content: '›'; /* Símbolo de flecha derecha */
+        font-family: Arial, sans-serif;
+    }
+
+    .carousel-inner img {
+        height: 400px; /* Ajusta la altura fija según tu preferencia */
+        object-fit: cover; /* Mantiene la proporción y recorta si es necesario */
+        width: 100%; /* Asegura que el ancho ocupe todo el espacio disponible */
+    }
+
+    .modal-body img {
+        height: 400px; /* Mantén la misma altura que las imágenes del carrusel */
+        object-fit: cover; /* Aplica el mismo estilo para las imágenes de los modales */
+        width: 100%;
+    }
+    .d-none {
+        display: none !important;
+    }
+    .slider-container {
+        margin-top: 20px;
+        text-align: center; /* Opcional: Para centrar el texto adicional */
+    }
+</style>
+
+<script>
+    function showSlider(sliderId) {
+        // Ocultar todos los sliders
+        const sliders = document.querySelectorAll('.slider-container');
+        sliders.forEach(slider => {
+            slider.classList.add('d-none');
+        });
+
+        // Mostrar el slider seleccionado
+        const selectedSlider = document.getElementById(sliderId);
+        if (selectedSlider) {
+            selectedSlider.classList.remove('d-none');
+        }
+    }
+</script>
+
 <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.3/dist/umd/popper.min.js"></script>
 <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
 </body>
+
+<footer class="bg-light text-center text-lg-start mt-5">
+    <div class="container p-4">
+        <div class="row">
+            <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Sobre la aplicación</h5>
+                <p>
+                    Esta es una aplicación de exploración de Power Rangers, donde puedes encontrar información sobre episodios, temporadas, rangers, villanos y zords.
+                </p>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Enlaces útiles</h5>
+                <ul class="list-unstyled mb-0">
+                    <li><a href="home.jsp" class="text-dark">Inicio</a></li>
+                    <li><a href="RangersServlet" class="text-dark">Rangers</a></li>
+                    <li><a href="ZordsServlet" class="text-dark">Zords</a></li>
+                    <li><a href="VillanosServlet" class="text-dark">Villanos</a></li>
+                </ul>
+            </div>
+            <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
+                <h5 class="text-uppercase">Contacto</h5>
+                <p>Email: contacto@powerrangers.com</p>
+                <p>Teléfono: +56 9 1234 5678</p>
+            </div>
+        </div>
+    </div>
+    <div class="text-center p-3" style="background-color: #e9ecef;">
+        © 2024 Power Rangers Fan App. Todos los derechos reservados.
+    </div>
+</footer>
+
 </html>
 
 
