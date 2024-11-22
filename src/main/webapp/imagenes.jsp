@@ -155,6 +155,7 @@
 </div>
 
 <div id="slider-temporada-1" class="slider-container d-none">
+    <p>Mighty Morphin Power Rangers</p>
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
             <div class="carousel-inner">
@@ -166,6 +167,9 @@
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="imagesslider/slider1temp/Poster T1.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider1temp/Villano1.png" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators1" role="button" data-slide="prev">
@@ -181,6 +185,7 @@
 </div>
 
 <div id="slider-temporada-2" class="slider-container d-none">
+    <p>Alien Rangers</p>
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
             <div class="carousel-inner">
@@ -192,6 +197,9 @@
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="imagesslider/slider2temp/Zords%20AR.png" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider2temp/Villano2.png" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators2" role="button" data-slide="prev">
@@ -207,6 +215,7 @@
 </div>
 
 <div id="slider-temporada-3" class="slider-container d-none">
+    <p>Power Rangers Zeo</p>
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
             <div class="carousel-inner">
@@ -218,6 +227,9 @@
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="imagesslider/slider3temp/Poster%20Zeo.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider3temp/Villano3.png" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators3" role="button" data-slide="prev">
@@ -233,6 +245,7 @@
 </div>
 
 <div id="slider-temporada-4" class="slider-container d-none">
+    <p>Power Rangers Turbo</p>
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators4" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
             <div class="carousel-inner">
@@ -244,6 +257,9 @@
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="imagesslider/slider4temp/Poster%20Turbo.webp" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider4temp/Villano4.png" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators4" role="button" data-slide="prev">
@@ -259,6 +275,7 @@
 </div>
 
 <div id="slider-temporada-5" class="slider-container d-none">
+    <p>Power Rangers Space</p>
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators5" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
             <div class="carousel-inner">
@@ -270,6 +287,9 @@
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="imagesslider/slider5temp/Poster%20Space.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider5temp/Villano5.png" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators5" role="button" data-slide="prev">
@@ -285,6 +305,7 @@
 </div>
 
 <div id="slider-temporada-6" class="slider-container d-none">
+    <p>Power Rangers Lost Galaxi</p>
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators6" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
             <div class="carousel-inner">
@@ -296,6 +317,9 @@
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="imagesslider/slider6temp/Poster%20LG.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider6temp/Villano6.png" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators6" role="button" data-slide="prev">
@@ -311,6 +335,7 @@
 </div>
 
 <div id="slider-temporada-7" class="slider-container d-none">
+    <p>Power Rangers Lightspeed Rescue</p>
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators7" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
             <div class="carousel-inner">
@@ -322,6 +347,9 @@
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="imagesslider/slider7temp/Poster%20LR.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider7temp/Villano7.png" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators7" role="button" data-slide="prev">
@@ -337,6 +365,7 @@
 </div>
 
 <div id="slider-temporada-8" class="slider-container d-none">
+    <p>Power Rangers Time Force</p>
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators8" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
             <div class="carousel-inner">
@@ -348,6 +377,9 @@
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="imagesslider/slider8temp/Poster%20TF.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider8temp/Villano8.png" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators8" role="button" data-slide="prev">
@@ -363,17 +395,21 @@
 </div>
 
 <div id="slider-temporada-9" class="slider-container d-none">
+    <p>Power Rangers Wild Force</p>
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators9" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="imagesslider/slider9temp/Megazord%20WF.jpg" alt="First slide">
+                    <img class="d-block w-100" src="imagesslider/slider9temp/Elenco%20WF.jpg" alt="First slide">
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="imagesslider/slider9temp/Megazord%20WF.jpg" alt="Second slide">
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="imagesslider/slider9temp/Poster%20WF.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider9temp/Villano9.png" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators9" role="button" data-slide="prev">
@@ -389,6 +425,7 @@
 </div>
 
 <div id="slider-temporada-10" class="slider-container d-none">
+    <p>Power Rangers Ninja Storm</p>
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators10" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
             <div class="carousel-inner">
@@ -400,6 +437,9 @@
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="imagesslider/slider10temp/Poster%20NS.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider10temp/Villano10.png" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators10" role="button" data-slide="prev">
@@ -415,6 +455,7 @@
 </div>
 
 <div id="slider-temporada-11" class="slider-container d-none">
+    <p>Power Rangers Dino Thunder</p>
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators11" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
             <div class="carousel-inner">
@@ -426,6 +467,9 @@
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="imagesslider/slider11temp/Poster%20DT.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider11temp/Villano11.png" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators11" role="button" data-slide="prev">
@@ -441,6 +485,7 @@
 </div>
 
 <div id="slider-temporada-12" class="slider-container d-none">
+    <p>Power Rangers SPD</p>
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators12" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
             <div class="carousel-inner">
@@ -452,6 +497,9 @@
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="imagesslider/slider12temp/Poster%20SPD.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider12temp/Villano12.png" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators12" role="button" data-slide="prev">
@@ -467,6 +515,7 @@
 </div>
 
 <div id="slider-temporada-13" class="slider-container d-none">
+    <p>Power Rangers Mystic Force</p>
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators13" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
             <div class="carousel-inner">
@@ -478,6 +527,9 @@
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="imagesslider/slider13temp/Poster%20MF.webp" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider13temp/Villano13.png" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators13" role="button" data-slide="prev">
@@ -493,6 +545,7 @@
 </div>
 
 <div id="slider-temporada-14" class="slider-container d-none">
+    <p>Power Rangers Operation Overdrive</p>
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators14" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
             <div class="carousel-inner">
@@ -504,6 +557,9 @@
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="imagesslider/slider14temp/Poster%20OO.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider14temp/Villano14.png" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators14" role="button" data-slide="prev">
@@ -519,6 +575,7 @@
 </div>
 
 <div id="slider-temporada-15" class="slider-container d-none">
+    <p>Power Rangers Jungle Fury</p>
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators15" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
             <div class="carousel-inner">
@@ -530,6 +587,9 @@
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="imagesslider/slider15temp/Poster%20JF.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider15temp/Villano15.png" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators15" role="button" data-slide="prev">
@@ -545,6 +605,7 @@
 </div>
 
 <div id="slider-temporada-16" class="slider-container d-none">
+    <p>Power Rangers RPM</p>
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators16" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
             <div class="carousel-inner">
@@ -556,6 +617,9 @@
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="imagesslider/slider16temp/Poster%20RPM.webp" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider16temp/Villano16.png" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators16" role="button" data-slide="prev">
@@ -571,17 +635,21 @@
 </div>
 
 <div id="slider-temporada-17" class="slider-container d-none">
+    <p>Power Rangers Samurai</p>
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators17" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="imagesslider/slider17temp/Megazord%20Sa.jpg" alt="First slide">
+                    <img class="d-block w-100" src="imagesslider/slider17temp/Elenco%20Sa.webp" alt="First slide">
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="imagesslider/slider17temp/Megazord%20Sa.jpg" alt="Second slide">
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="imagesslider/slider17temp/Poster%20Sa.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider17temp/Villano17.png" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators17" role="button" data-slide="prev">
@@ -597,6 +665,7 @@
 </div>
 
 <div id="slider-temporada-18" class="slider-container d-none">
+    <p>Power Rangers Megaforce</p>
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators18" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
             <div class="carousel-inner">
@@ -608,6 +677,9 @@
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="imagesslider/slider18temp/Poster%20Me.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider18temp/Villano18.png" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators18" role="button" data-slide="prev">
@@ -623,6 +695,7 @@
 </div>
 
 <div id="slider-temporada-19" class="slider-container d-none">
+    <p>Power Rangers Dino Charge</p>
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators19" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
             <div class="carousel-inner">
@@ -634,6 +707,9 @@
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="imagesslider/slider19temp/Poster%20DC.webp" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider19temp/Villano19.png" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators19" role="button" data-slide="prev">
@@ -649,6 +725,7 @@
 </div>
 
 <div id="slider-temporada-20" class="slider-container d-none">
+    <p>Power Rangers Ninja Steel</p>
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators20" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
             <div class="carousel-inner">
@@ -660,6 +737,9 @@
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="imagesslider/slider20temp/Poster%20Ni.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider20temp/Villano20.png" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators20" role="button" data-slide="prev">
@@ -675,6 +755,7 @@
 </div>
 
 <div id="slider-temporada-21" class="slider-container d-none">
+    <p>Power Rangers Beast Morpher</p>
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators21" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
             <div class="carousel-inner">
@@ -686,6 +767,9 @@
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="imagesslider/slider21temp/Poster%20BM.jpg" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider21temp/Villano21.png" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators21" role="button" data-slide="prev">
@@ -701,6 +785,7 @@
 </div>
 
 <div id="slider-temporada-22" class="slider-container d-none">
+    <p>Power Rangers Dino Fury</p>
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators22" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
             <div class="carousel-inner">
@@ -712,6 +797,9 @@
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="imagesslider/slider22temp/Poster%20DF.webp" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider22temp/Villano22.png" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators22" role="button" data-slide="prev">
@@ -727,6 +815,7 @@
 </div>
 
 <div id="slider-temporada-23" class="slider-container d-none">
+    <p>Power Rangers Cosmic Fury</p>
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators23" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
             <div class="carousel-inner">
@@ -738,6 +827,9 @@
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="imagesslider/slider23temp/Poster%20CF.webp" alt="Third slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider23temp/Villano23.jpg" alt="Third slide">
                 </div>
             </div>
             <a class="carousel-control-prev" href="#carouselExampleIndicators23" role="button" data-slide="prev">
@@ -802,7 +894,7 @@
         sliders.forEach(slider => {
             slider.classList.add('d-none');
         });
-        
+
         const selectedSlider = document.getElementById(sliderId);
         if (selectedSlider) {
             selectedSlider.classList.remove('d-none');

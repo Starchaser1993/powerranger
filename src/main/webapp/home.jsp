@@ -30,7 +30,6 @@
   }
 %>
 
-<!-- Menú de navegación -->
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
     <a class="navbar-brand font-weight-bold text-white" href="#">
         <%= usuario.getRol().getDescripcion() %>
@@ -48,9 +47,6 @@
                 <a class="nav-link text-white" href="perfil.jsp">Perfil del Usuario</a>
             </li>
             <% } %>
-            <li class="nav-item">
-                <a class="nav-link text-white" href="info/info1.jsp">Info</a>
-            </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle text-white" href="#" id="menuDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Menú
@@ -79,6 +75,9 @@
                     case "imagenes":
                         response.sendRedirect("imagenes.jsp");
                         break;
+                    case "info":
+                        response.sendRedirect("info1.jsp");
+                        break;
                     // Puedes añadir más casos aquí para otras palabras clave
                     default:
                         // Mostrar un mensaje si la búsqueda no coincide con ninguna opción
@@ -104,6 +103,7 @@
       <p>Escribe una de las siguientes palabras para navegar rápidamente:</p>
       <ul class="list-unstyled">
           <li><strong>imagenes</strong> - Redirige a la página de imagenes</li>
+          <li><strong>info</strong> - Redirige a la página de información</li>
       </ul>
     </div>
   </div>
@@ -111,9 +111,8 @@
 
 <div class="container text-center mt-4">
   <img src="images/Mighty_Morphin_Logo.webp" alt="Mighty Morphin Logo" class="img-fluid mb-3" style="width:300px; height:auto;">
-  <h1>Esta es la sección principal donde puedes explorar las temporadas.</h1>
+  <h1>Bienvenido a la wiki de los Rangers.</h1>
   <p>La primera temporada de Power Rangers se llamó Mighty Morphin Power Rangers y se emitió por primera vez el 28 de agosto de 1993. La temporada finalizó el 27 de noviembre de 1995.</p>
-  <!-- Video centrado -->
   <div class="embed-responsive embed-responsive-16by9 mt-3">
     <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/nHalaFUqnTI" title="Mighty Morphin Season 1 - Official Opening Theme and Theme Song | Power Rangers Official" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
   </div>
