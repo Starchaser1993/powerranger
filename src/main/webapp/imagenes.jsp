@@ -94,7 +94,7 @@
             <div class="card">
                 <img src="buscarimagenes/ZordsMP.webp" class="card-img-top" alt="Zords WEBP" data-toggle="modal" data-target="#modalZordsWEBP">
                 <div class="card-body">
-                    <h5 class="card-title text-center">Zords</h5>
+                    <h5 class="card-title text-center">Zords y Megazord</h5>
                 </div>
             </div>
         </div>
@@ -157,7 +157,6 @@
 <div id="slider-temporada-1" class="slider-container d-none">
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
-            <!-- Contenido del slider de la Temporada 1 -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="imagesslider/slider1temp/Elenco T1.jpg" alt="First slide">
@@ -184,7 +183,6 @@
 <div id="slider-temporada-2" class="slider-container d-none">
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
-            <!-- Contenido del slider de la Temporada 1 -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="imagesslider/slider2temp/Elenco%20AR.webp" alt="First slide">
@@ -211,7 +209,6 @@
 <div id="slider-temporada-3" class="slider-container d-none">
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators3" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
-            <!-- Contenido del slider de la Temporada 1 -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="imagesslider/slider3temp/Elenco%20Zeo.jpg" alt="First slide">
@@ -238,7 +235,6 @@
 <div id="slider-temporada-4" class="slider-container d-none">
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators4" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
-            <!-- Contenido del slider de la Temporada 1 -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="imagesslider/slider4temp/Elenco%20Turbo.webp" alt="First slide">
@@ -265,7 +261,6 @@
 <div id="slider-temporada-5" class="slider-container d-none">
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators5" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
-            <!-- Contenido del slider de la Temporada 1 -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="imagesslider/slider5temp/Elenco%20Space.jpg" alt="First slide">
@@ -292,7 +287,6 @@
 <div id="slider-temporada-6" class="slider-container d-none">
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators6" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
-            <!-- Contenido del slider de la Temporada 1 -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="imagesslider/slider6temp/Elenco%20LG.webp" alt="First slide">
@@ -319,7 +313,6 @@
 <div id="slider-temporada-7" class="slider-container d-none">
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators7" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
-            <!-- Contenido del slider de la Temporada 1 -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="imagesslider/slider7temp/Elenco%20LR.webp" alt="First slide">
@@ -346,7 +339,6 @@
 <div id="slider-temporada-8" class="slider-container d-none">
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators8" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
-            <!-- Contenido del slider de la Temporada 1 -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="imagesslider/slider8temp/Elenco%20TF.webp" alt="First slide">
@@ -373,7 +365,6 @@
 <div id="slider-temporada-9" class="slider-container d-none">
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators9" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
-            <!-- Contenido del slider de la Temporada 1 -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="imagesslider/slider9temp/Megazord%20WF.jpg" alt="First slide">
@@ -400,7 +391,6 @@
 <div id="slider-temporada-10" class="slider-container d-none">
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators10" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
-            <!-- Contenido del slider de la Temporada 1 -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="imagesslider/slider10temp/Elenco%20NS.jpg" alt="First slide">
@@ -427,7 +417,6 @@
 <div id="slider-temporada-11" class="slider-container d-none">
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators11" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
-            <!-- Contenido del slider de la Temporada 1 -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="imagesslider/slider11temp/Elenco%20DT.webp" alt="First slide">
@@ -451,10 +440,35 @@
     </div>
 </div>
 
+<div id="slider-temporada-12" class="slider-container d-none">
+    <div class="d-flex justify-content-center">
+        <div id="carouselExampleIndicators12" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
+            <div class="carousel-inner">
+                <div class="carousel-item active">
+                    <img class="d-block w-100" src="imagesslider/slider12temp/Elenco%20SPD.jpeg" alt="First slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider12temp/Megazord%20SPD.png" alt="Second slide">
+                </div>
+                <div class="carousel-item">
+                    <img class="d-block w-100" src="imagesslider/slider12temp/Poster%20SPD.jpg" alt="Third slide">
+                </div>
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators12" role="button" data-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="sr-only">Previous</span>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators12" role="button" data-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="sr-only">Next</span>
+            </a>
+        </div>
+    </div>
+</div>
+
 <div id="slider-temporada-13" class="slider-container d-none">
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators13" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
-            <!-- Contenido del slider de la Temporada 1 -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="imagesslider/slider13temp/Elenco%20MF.jpg" alt="First slide">
@@ -481,7 +495,6 @@
 <div id="slider-temporada-14" class="slider-container d-none">
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators14" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
-            <!-- Contenido del slider de la Temporada 1 -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="imagesslider/slider14temp/Elenco%20OO.webp" alt="First slide">
@@ -508,7 +521,6 @@
 <div id="slider-temporada-15" class="slider-container d-none">
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators15" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
-            <!-- Contenido del slider de la Temporada 1 -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="imagesslider/slider15temp/Elenco%20JF.jpg" alt="First slide">
@@ -535,7 +547,6 @@
 <div id="slider-temporada-16" class="slider-container d-none">
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators16" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
-            <!-- Contenido del slider de la Temporada 1 -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="imagesslider/slider16temp/Elenco%20RPM.jpg" alt="First slide">
@@ -562,7 +573,6 @@
 <div id="slider-temporada-17" class="slider-container d-none">
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators17" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
-            <!-- Contenido del slider de la Temporada 1 -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="imagesslider/slider17temp/Megazord%20Sa.jpg" alt="First slide">
@@ -589,7 +599,6 @@
 <div id="slider-temporada-18" class="slider-container d-none">
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators18" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
-            <!-- Contenido del slider de la Temporada 1 -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="imagesslider/slider18temp/Elenco%20Me.jpg" alt="First slide">
@@ -616,7 +625,6 @@
 <div id="slider-temporada-19" class="slider-container d-none">
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators19" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
-            <!-- Contenido del slider de la Temporada 1 -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="imagesslider/slider19temp/Elenco%20DC.webp" alt="First slide">
@@ -643,7 +651,6 @@
 <div id="slider-temporada-20" class="slider-container d-none">
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators20" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
-            <!-- Contenido del slider de la Temporada 1 -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="imagesslider/slider20temp/Elenco%20Ni.webp" alt="First slide">
@@ -670,7 +677,6 @@
 <div id="slider-temporada-21" class="slider-container d-none">
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators21" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
-            <!-- Contenido del slider de la Temporada 1 -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="imagesslider/slider21temp/Elenco%20BM.jpg" alt="First slide">
@@ -697,7 +703,6 @@
 <div id="slider-temporada-22" class="slider-container d-none">
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators22" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
-            <!-- Contenido del slider de la Temporada 1 -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="imagesslider/slider22temp/Elenco%20DF.jpg" alt="First slide">
@@ -724,7 +729,6 @@
 <div id="slider-temporada-23" class="slider-container d-none">
     <div class="d-flex justify-content-center">
         <div id="carouselExampleIndicators23" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
-            <!-- Contenido del slider de la Temporada 1 -->
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-100" src="imagesslider/slider23temp/Elenco%20CF.webp" alt="First slide">
@@ -763,24 +767,24 @@
     }
 
     .carousel-control-prev-icon::before {
-        content: '‹'; /* Símbolo de flecha izquierda */
+        content: '‹';
         font-family: Arial, sans-serif;
     }
 
     .carousel-control-next-icon::before {
-        content: '›'; /* Símbolo de flecha derecha */
+        content: '›';
         font-family: Arial, sans-serif;
     }
 
     .carousel-inner img {
-        height: 400px; /* Ajusta la altura fija según tu preferencia */
-        object-fit: cover; /* Mantiene la proporción y recorta si es necesario */
-        width: 100%; /* Asegura que el ancho ocupe todo el espacio disponible */
+        height: 400px;
+        object-fit: cover;
+        width: 100%;
     }
 
     .modal-body img {
-        height: 400px; /* Mantén la misma altura que las imágenes del carrusel */
-        object-fit: cover; /* Aplica el mismo estilo para las imágenes de los modales */
+        height: 400px;
+        object-fit: cover;
         width: 100%;
     }
     .d-none {
@@ -788,19 +792,17 @@
     }
     .slider-container {
         margin-top: 20px;
-        text-align: center; /* Opcional: Para centrar el texto adicional */
+        text-align: center;
     }
 </style>
 
 <script>
     function showSlider(sliderId) {
-        // Ocultar todos los sliders
         const sliders = document.querySelectorAll('.slider-container');
         sliders.forEach(slider => {
             slider.classList.add('d-none');
         });
-
-        // Mostrar el slider seleccionado
+        
         const selectedSlider = document.getElementById(sliderId);
         if (selectedSlider) {
             selectedSlider.classList.remove('d-none');

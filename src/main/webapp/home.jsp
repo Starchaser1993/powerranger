@@ -48,6 +48,9 @@
                 <a class="nav-link text-white" href="perfil.jsp">Perfil del Usuario</a>
             </li>
             <% } %>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="info/info1.jsp">Info</a>
+            </li>
             <li class="nav-item dropdown">
                 <a class="nav-link dropdown-toggle text-white" href="#" id="menuDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
                     Menú
