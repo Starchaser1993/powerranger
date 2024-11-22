@@ -18,7 +18,7 @@
     </ul>
 </nav>
 <div class="mt-3">
-    <button onclick="window.history.back();" class="btn btn-secondary">Volver</button>
+    <button onclick="window.history.back();" class="btn btn-secondary">← Volver</button>
 </div>
 <div class="container mt-4">
     <div class="row">
@@ -72,7 +72,8 @@
         </div>
     </div>
     <div class="text-center p-3" style="background-color: #e9ecef;">
-        © 2024 Power Rangers Fan App. Todos los derechos reservados.
+        <p class="mb-0">© 2024 Power Rangers Fan App. Todos los derechos reservados.</p>
+        <small>Consulta nuestras <a href="terminos.jsp">políticas de buena conducta</a>.</small>
     </div>
 </footer>
 </html>
