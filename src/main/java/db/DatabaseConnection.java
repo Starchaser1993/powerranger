@@ -12,7 +12,7 @@ public class DatabaseConnection {
     //private static final String USER = System.getenv("DB_USER"); // Obtener de variables de entorno
     //private static final String PASSWORD = System.getenv("DB_PASSWORD");
     private static final String USER ="SA" ;
-    private static final String PASSWORD ="kratosywea3514." ;
+    private static final String PASSWORD ="Elgatoloco3514." ;
 
     public static Connection getConnection() throws SQLException {
         Connection connection = null;
