@@ -160,13 +160,13 @@
         <div id="carouselExampleIndicators1" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="imagesslider/slider1temp/Elenco T1.jpg" alt="First slide">
+                    <img class="d-block w-100" src="imagesslider/slider1temp/ElencoT1.jpg" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="imagesslider/slider1temp/Megazord T1.jpg" alt="Second slide">
+                    <img class="d-block w-100" src="imagesslider/slider1temp/MegazordT1.jpg" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="imagesslider/slider1temp/Poster T1.jpg" alt="Third slide">
+                    <img class="d-block w-100" src="imagesslider/slider1temp/PosterT1.jpg" alt="Third slide">
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="imagesslider/slider1temp/Villano1.png" alt="Third slide">
@@ -190,13 +190,13 @@
         <div id="carouselExampleIndicators2" class="carousel slide" data-ride="carousel" style="max-width: 600px;">
             <div class="carousel-inner">
                 <div class="carousel-item active">
-                    <img class="d-block w-100" src="imagesslider/slider2temp/Elenco%20AR.webp" alt="First slide">
+                    <img class="d-block w-100" src="imagesslider/slider2temp/ElencoAR.webp" alt="First slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="imagesslider/slider2temp/Poster%20AR.webp" alt="Second slide">
+                    <img class="d-block w-100" src="imagesslider/slider2temp/PosterAR.webp" alt="Second slide">
                 </div>
                 <div class="carousel-item">
-                    <img class="d-block w-100" src="imagesslider/slider2temp/Zords%20AR.png" alt="Third slide">
+                    <img class="d-block w-100" src="imagesslider/slider2temp/ZordsAR.png" alt="Third slide">
                 </div>
                 <div class="carousel-item">
                     <img class="d-block w-100" src="imagesslider/slider2temp/Villano2.png" alt="Third slide">
